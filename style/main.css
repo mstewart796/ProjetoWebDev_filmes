@@ -451,7 +451,10 @@ img{
     }
 }
 
-
+a {
+    text-decoration: none; /* Removes the underline */
+  }
+  
 
 
 
