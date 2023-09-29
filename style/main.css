@@ -293,11 +293,14 @@ img{
     color: white;
 }
 
-
+.last-articles {
+    background-color: black;
+}
 
 .last-articles__title{
     background-color: #63c6ae;
     padding: 5px 0;
+    
 }
 
 .last-articles__title h2{
@@ -312,7 +315,7 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 0;
-    background: yellow;
+    background:none;
 }
 .last-articles__thumbs img{
     display: block;
@@ -320,7 +323,7 @@ img{
 }
 
 .last-articles__thumbs img:hover {
-    opacity: 0.9;
+    opacity: 0.7;
     
 }
 
