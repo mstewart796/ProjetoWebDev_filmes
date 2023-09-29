@@ -14,7 +14,7 @@
         <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         
-      <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/main.css">
       
     </head>
@@ -214,6 +214,18 @@
         <script src="js/carousel.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script>
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                      behavior: 'smooth'
+                  });
+              });
+          });
+      </script>
+      
 
     </body>
 </html>
