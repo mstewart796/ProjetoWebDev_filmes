@@ -301,9 +301,6 @@ img{
     color: white;
 }
 
-.last-articles {
-    background-color: black;
-}
 
 .last-articles__title{
     background-color: #63c6ae;
@@ -324,6 +321,7 @@ img{
     grid-auto-rows: auto;
     grid-gap: 0;
     background:none;
+    background-color: black;
 }
 .last-articles__thumbs img{
     display: block;
@@ -465,6 +463,7 @@ a {
   
 .placeholder {
     height: 75px;
+    background-color: none;
 }
 
 
