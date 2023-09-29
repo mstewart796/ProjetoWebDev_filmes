@@ -319,6 +319,11 @@ img{
     width: 100%;
 }
 
+.last-articles__thumbs img:hover {
+    opacity: 0.9;
+    
+}
+
 
 .laptop-slider{
     background-color: #242a2c;
