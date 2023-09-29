@@ -463,7 +463,9 @@ a {
     text-decoration: none; /* Removes the underline */
   }
   
-
+.placeholder {
+    height: 75px;
+}
 
 
 
