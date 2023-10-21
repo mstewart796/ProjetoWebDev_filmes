@@ -27,16 +27,28 @@
           
           <nav class="header__nav">
             <ul>
+              <li><a href="#slider">em breve</a></li>
               <li><a href="#pesquisa">Pesquisa</a></li>
-              <li><a href="#diretores">diretores</a></li>
-              <li><a href="#terceira">terceira seção</a></li>
+              <li><a href="#diretores">Melhores diretores</a></li>
               <li><a href="#filmes">melhores filmes</a></li>
-              <li><a href="#quinta">quinta seção</a></li>
               <li><a href="#frases">frases</a></li>
+              <li><a href="#signup">sign up</a></li>
             </ul>
           </nav>
         </header>
         
+        <div class="laptop-slider" id="slider">
+          <h1 class="hero__title-breve">Em breve num cinema perto de você</h1>
+          <div class="placeholder"></div>            
+          <div class="slideshow">
+            <figure><img alt="" src="img/filmes/home1.jpg" /></figure>
+            <figure><img alt="" src="img/filmes/home2.jpg" /></figure>
+            <figure><img alt="" src="img/filmes/home3.jpg" /></figure>
+            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+          </div>                    
+        </div>
+
         <section class="hero" id="pesquisa">
           <div class="placeholder"></div>            
           <h1 class="hero__title" >            
@@ -116,28 +128,7 @@
                 
         </section>
         </div>
-        
-        <section class="content" id="terceira">
-          <div class="placeholder"></div>
-        <div class="container">
-        
-          
-          <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>            
-            <a href="#" class="button button-primary">BUTTON</a>
-            <a href="#" class="button button-secundary">BUTTON</a>
-          </article>
-
-          <article>
-            <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
-          </article>  
-          </div>
-        </section>
-        
-        
+ 
         <section class="last-articles" id="filmes">
           <div class="placeholder"></div>
             <div class="last-articles__title">
@@ -163,39 +154,60 @@
           </div>
         </section>
 
-        <div class="laptop-slider" id="quinta">
-          <div class="placeholder"></div>            
-          <div class="slideshow">
-            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
-            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
-            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
-            <figure><img alt="" src="img/slider/slide-02.png" /></figure>
-            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
-            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
-          </div>                    
-        </div>
+       
         
         <section class="quote-container" id="frases">
           <div class="placeholder"></div>
 
           <div class="quote-slideshow">
             <figure>
-              <h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+              <h2>“May the Force be with you.” </h2>
               <figcaption>
-                Nam mi enim, auctor non ultricies.
+                - Star Wars, 1977
               </figcaption>
             </figure>
             <figure>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</h2>
+              <h2>“There's no place like home.”</h2>
               <figcaption>
-                Nam mi enim, auctor.
+                - The Wizard of Oz, 1939
               </figcaption>
             </figure>
+            <figure>
+              <h2>“I'm the king of the world!” </h2>
+              <figcaption>
+                - Titanic, 1997
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“Carpe diem. Seize the day, boys. Make your lives extraordinary.”</h2>
+              <figcaption>
+                - Dead Poets Society, 1989
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“Elementary, my dear Watson.” </h2>
+              <figcaption>
+                - The Adventures of Sherlock Holmes, 1939
+              </figcaption>
+            </figure>          
             <span class="prev" style="display:none;"><i class="fas fa-angle-left fa-2x"></i></span>
             <span class="next" style="display:none;"><i class="fas fa-angle-right fa-2x"></i></span>
           </div>
           
+          <section class="content" id="signup">
+            <div class="placeholder"></div>
+          <div class="container">
           
+            
+            <article>
+              <h3>Aproveite da oportunidade para se-cadrastar!</h3>
+              <p>Se você já tenha uma conta faz o seu Login aqui</p>            
+              <a href="register.php" class="button button-primary">Signup</a>
+              <a href="login.php" class="button button-secundary">Login</a>
+            </article>
+  
+            
+          </section>
           
         </section>
 

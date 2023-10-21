@@ -467,7 +467,13 @@ a {
 }
 
 
-
+.hero__title-breve {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
 
 
 
