@@ -28,7 +28,7 @@ img{
 
 .logo-text{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: #950101;
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -38,6 +38,10 @@ img{
     color: #fff;
     float: left;
     text-align: right;
+}
+
+.logo-text:hover{
+    color: #454e51;
 }
 
 .header__nav{
@@ -64,7 +68,7 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
-    color: #63c6ae;   
+    color: #950101;  
 }
 .header__btnMenu{
     float: right;
@@ -176,7 +180,7 @@ img{
 }
 
 .hero__title{
-    background-color: #63c6ae;
+    background-color: #950101;
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -185,7 +189,7 @@ img{
 }
 .hero__title-diretores {
     text-align: center;
-    background-color: #63c6ae;
+    background-color: #950101;
     color: white;
     text-transform: uppercase;
     font-size: 28px;
@@ -213,9 +217,6 @@ img{
     text-transform: uppercase;
 }
 
-
-
-
 .people-cards{
     margin-top: 2.5em;
 }
@@ -224,7 +225,7 @@ img{
     
 }
 .people-cards__card:hover{
-    outline: 5px solid #63c6ae;
+    outline: 5px solid #950101;
     outline-offset: -5px;
 }
 .people-cards__card:hover .people-cards__avatar img{
@@ -232,7 +233,7 @@ img{
 }
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
-    color: #63c6ae;
+    color: #950101;
 }
 
 .people-cards__image{
@@ -290,20 +291,21 @@ img{
     transition: background .5s;
 }
 .button:hover{
-    background-color: #929da5;
+    background-color: #242a2c;
+    color: #950101;
 }
 .button-primary{
-    background-color: #69c6ae;
+    background-color: #3D0000;
     color: white;
 }
 .button-secundary{
-    background-color: #455357;
+    background-color: #950101;
     color: white;
 }
 
 
 .last-articles__title{
-    background-color: #63c6ae;
+    background-color: #950101;
     padding: 5px 0;
     
 }
@@ -352,9 +354,9 @@ img{
 
 
 .quote-container{
-    background-color: #63c6ae;
+    background-color: #950101;
     padding: 50px 0;
-    border-bottom: 12px solid #48b9a1;
+    border-bottom: 12px solid #3D0000;
 }
 
 .quote-slideshow h2{
@@ -474,8 +476,4 @@ a {
     font-size: 28px;
     font-weight: 600;
 }
-
-
-
-
 
