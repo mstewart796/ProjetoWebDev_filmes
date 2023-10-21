@@ -12,7 +12,7 @@ session_start();
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="https://sourcecodester.com" target="_balnk">Sourcecodester</a>
+			<a class="navbar-brand" href="index.html" >home</a>
 		</div>
 	</nav>
 	<div class="col-md-3"></div>

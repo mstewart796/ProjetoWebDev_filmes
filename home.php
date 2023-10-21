@@ -8,7 +8,7 @@
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="https://sourcecodester.com" target="_blank">Sourcecodester</a>
+			<a class="navbar-brand" href="index.html" target="_blank">Home</a>
 		</div>
 	</nav>
 	<div class="col-md-3"></div>
