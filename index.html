@@ -52,10 +52,17 @@
         <section class="hero" id="pesquisa">
           <div class="placeholder"></div>            
           <h1 class="hero__title" >            
-            Qualquer texto sobre filmes
+            Pesquisa aqui
           </h1>
-          <p class="hero__text">Talvez uma barra para pesquisar algo?</p>
-          <a href="https://www.imdb.com/chart/top/" target="_blank" class="hero__btn">IMDB Chart</a>                      
+
+
+          <form class="hero__text" action="https://www.imdb.com/find" method="get" target="_blank">
+            <input type="text" name="q" placeholder="Filmes, atores, diretores">
+            <input class="hero__btn" type="submit" value="Pesquisa no IMDB">
+
+
+          <!-- <p class="hero__text">Talvez uma barra para pesquisar algo?</p> -->
+          <!-- <a href="https://www.imdb.com/chart/top/" target="_blank" class="hero__btn">IMDB Chart</a>                       -->
         </section>
 
         <div class="container" id="diretores">
