@@ -1,4 +1,8 @@
 <!doctype html>
+<?php 
+//starting the session
+session_start();
+?>
 <html lang="pt-br">
     <head>
         <title> Login </title>
