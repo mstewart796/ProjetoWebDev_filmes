@@ -28,7 +28,7 @@
           <nav class="header__nav">
             <ul>
               <li><a href="#slider">em breve</a></li>
-              <li><a href="#pesquisa">Pesquisa</a></li>
+              <li><a href="#pesquisa">Busca</a></li>
               <li><a href="#diretores">Melhores diretores</a></li>
               <li><a href="#filmes">melhores filmes</a></li>
               <li><a href="#frases">frases famosas</a></li>
@@ -51,13 +51,13 @@
 
         <section class="hero" id="pesquisa">
           <div class="placeholder"></div>            
-          <h1 class="hero__title" >            
+          <!-- <h1 class="hero__title" >            
             Pesquisa aqui
-          </h1>
-
+          </h1> -->
 
           <form class="hero__text" action="https://www.imdb.com/find" method="get" target="_blank">
-            <input type="text" name="q" placeholder="Filmes, atores, diretores">
+            <label for="busca" class="hero__title">Busca aqui</label>
+            <input type="text" name="q" placeholder="Filmes, atores, diretores" id="busca">
             <input class="hero__btn" type="submit" value="Pesquisa no IMDB">
 
 
