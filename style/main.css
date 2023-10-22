@@ -474,3 +474,11 @@ a {
     font-weight: 600;
 }
 
+.hero__title-login {
+    text-align: center;
+    color: #454e51;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+

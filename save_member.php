@@ -26,7 +26,7 @@
 			$_SESSION['success'] = "Successfully created an account";
 
 			//redirecting to the index.php 
-			header('location: index.php');
+			header('location: index_logged_in.html');
 		}
 
 	}
