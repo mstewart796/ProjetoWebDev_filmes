@@ -197,7 +197,17 @@
               <h3>Obrigado por fazer parte da nossa comunidade. Tenha um ótimo dia!</h3>
               <p>Você está a um clique do logout. Confirme sua escolha.</p>            
               <!-- <a href="test_register.php" class="button button-primary">Signup</a> -->
-              <a href="logged_out.php" class="button button-secundary">Logout</a>
+              <a href="javascript:void(0);" class="button button-secundary" onclick="delayedLogout()">Logout</a>
+
+                    <script>
+                    function delayedLogout() {
+                        // Delay for 3 seconds (adjust the value as needed)
+                        setTimeout(function() {
+                            window.location.href = 'logged_out.php';
+                        }, 1000); // 000 milliseconds (1 second)
+                    }
+                    </script>
+
             </article>
   
             
