@@ -16,7 +16,12 @@
 		$count = $row['count'];
 		
 		if($count > 0){
-			header('location:test_home.php');
+			// Redirect to test_home.php after a 3-second delay
+			echo '<script>
+			setTimeout(function() {
+				window.location.href = "test_home.php";
+			}, 1000); // 1000 milliseconds (1 second)
+		</script>';
 		}else{
 			$_SESSION['error'] = "Invalid username or password";
 			header('location:test_login.php');
