@@ -23,10 +23,14 @@
 		// Check if the execution of query is success
 		if($stmt->execute()){
 			//setting a 'success' session to save our insertion success message.
-			$_SESSION['success'] = "Successfully created an account";
+			// $_SESSION['success'] = "Successfully created an account"; REMOVED AS REPLACED WITH ACCOUNT CREATION PAGE
 
-			//redirecting to the index.php 
-			header('location: index_logged_in.html');
+			 // Delayed redirection using JavaScript
+			 echo "<script>
+			 setTimeout(function () {
+				 window.location.href = 'conta_criada.php';
+			 }, 1000); // 3000 milliseconds (3 seconds) delay before redirection
+		   </script>";
 		}
 
 	}
