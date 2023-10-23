@@ -33,10 +33,10 @@
 
            <!-- Welcome screen -->
 		   <div class="col-md-6 well">
-		<h3 class="text-primary">Obrigado por ter criada uma conta!</h3>
+		<h3 class="welcome-text">Obrigado por ter criada uma conta!</h3>
 		<hr style="border-top:1px dotted #ccc;"/>
 		<a href="index_logged_in.html">Home</a>
-		<h1>Seja bem-vindo!</h1>
+		<h1 class="welcome-text">Seja bem-vindo!</h1>
 	</div>
                             
         </section>

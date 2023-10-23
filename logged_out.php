@@ -33,10 +33,10 @@
 
            <!-- Welcome screen -->
 		   <div class="col-md-6 well">
-		<h3 class="text-primary">Logout feito com successo!</h3>
+		<h3 class="welcome-text">Logout feito com successo!</h3>
 		<hr style="border-top:1px dotted #ccc;"/>
 		<a href="index.html">Home</a>
-		<h1>Volte sempre!</h1>
+		<h1 class="welcome-text">Volte sempre!</h1>
 	</div>
                             
         </section>
