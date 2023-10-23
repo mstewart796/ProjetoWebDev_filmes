@@ -482,3 +482,14 @@ a {
     font-weight: 600;
 }
 
+.custom_alert-dark {
+    background-color: #454e51; /* Background color */
+    border-color: #454e51;    /* Border color */
+    color: white;             /* Text color */
+}
+
+.custom_button-red {
+    background-color: #950101; /* Background color */
+    border-color: #950101;    /* Border color */
+    color: white;         /* Text color */ 
+}

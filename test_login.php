@@ -43,7 +43,7 @@ session_start();
 
             <!-- Login Form Starts -->
 			<form method="POST" action="login_query.php">	
-				<div class="alert alert-info">Login</div>
+				<div class="alert custom_alert-dark">Login</div>
 				<div class="form-group">
 					<label for="username">Usuário</label>
 					<input type="text" name="username" class="form-control" required="required"/>
@@ -63,7 +63,7 @@ session_start();
 					unset($_SESSION['error']);
 					}
 				?>
-				<button class="btn btn-primary btn-block" name="login"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+				<button class="btn btn-primary custom_button-red" name="login"><span class="glyphicon glyphicon-log-in"></span> Login</button>
 			</form>	
 			<!-- Login Form Ends -->
                             
