@@ -25,22 +25,249 @@
           
           <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span></button>
           
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#slider">em breve</a></li>
+              <li><a href="#pesquisa">Busca</a></li>
+              <li><a href="#diretores">Melhores diretores</a></li>
+              <li><a href="#filmes">melhores filmes</a></li>
+              <li><a href="#frases">frases famosas</a></li>
+              <li><a href="#signup">sign up</a></li>
+            </ul>
+          </nav>
         </header>
         
-        <section class="hero" style="background-image: none;">
-          
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Login</legend>
-                    <label for="user">Usuário</label>
-                    <input type="text" id="user" required autofocus>
-                    <label for="pwd">Senha</label>
-                    <input type="password" id="pwd" required>
-                    <input type="submit">
-                </fieldset>
-            </form>
-                            
+        <div class="laptop-slider" id="slider">
+            <h1 class="hero__title-breve">Em breve num cinema perto de você</h1>
+            <div class="placeholder"></div>
+            <div class="slideshow">
+              <div class="video-container" data-video="u9Mv98Gr5pY">
+                <img alt="Venom" src="img/filmes/home1.jpg" class="home_img" style="border-radius: 25%;"/>
+                <div class="play-button"></div>
+              </div>
+              <figure><img alt="Avengers" src="img/filmes/home2.jpg" class="home_img" style="border-radius: 25%;"/></figure>
+              <figure><img alt="Spiderman" src="img/filmes/home3.jpg" class="home_img" style="border-radius: 25%;"/></figure>
+              <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+              <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+            </div>
+          </div>
+
+        <section class="hero" id="pesquisa">
+          <div class="placeholder"></div>            
+          <!-- <h1 class="hero__title" >            
+            Pesquisa aqui
+          </h1> -->
+
+          <form class="hero__text" action="https://www.imdb.com/find" method="get" target="_blank">
+            <label for="busca" class="hero__title">Busca aqui</label>
+            <input type="text" name="q" placeholder="Filmes, atores, diretores" id="busca">
+            <input class="hero__btn" type="submit" value="Pesquisa no IMDB">
+
+
+          <!-- <p class="hero__text">Talvez uma barra para pesquisar algo?</p> -->
+          <!-- <a href="https://www.imdb.com/chart/top/" target="_blank" class="hero__btn">IMDB Chart</a>                       -->
         </section>
+
+        <div class="container" id="diretores">
+          <div class="placeholder"></div>
+          <h1 class="hero__title-diretores">Os 4 melhores diretores</h1>
+            <section class="people-cards" >
+            <article class="people-cards__card">               
+                <a href="https://www.imdb.com/chart/top/" target="_blank"></a>
+                <img src="img/diretores/Nolan.jpg" alt="Carousel Img" class="people-cards__image" style="border-radius: 50%;">
+
+                <!-- <div class="people-cards__avatar">
+                  <img src="img/diretores/Nolan.jpg" alt="Carousel Img">
+                </div> -->
+                <div class="people-cards__content">
+                  <a href="https://www.imdb.com/name/nm0634240/" target="_blank">
+                   <h2 class="people-cards__title">Christopher Nolan</h2>
+                  </a>
+                  <p class="people-cards__text">Nacionalidade: Inglês <br> Oscars: 0 <br>Arrecadação Total: $5.000.000.000  </p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/diretores/kubrick.jpg" alt="Carousel g" class="people-cards__image" style="border-radius: 50%;">
+
+                <div class="people-cards__content">
+                  <a href="https://www.imdb.com/name/nm0000040/" target="_blank">
+                    <h2 class="people-cards__title">Stanley Kubrick</h2>
+                  </a>
+                  <p class="people-cards__text">Nacionalidade: Estadounidense <br> Oscars: 1 <br>Arrecadação Total: $216.397.253</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/diretores/hitchcock.jpg" alt="Carousel Img" class="people-cards__image" style="border-radius: 50%;">
+
+                <div class="people-cards__content">
+                  <a href="https://www.imdb.com/name/nm0000033/" target="_blank">
+                    <h2 class="people-cards__title">Alfred Hitchcock</h2>
+                  </a>
+                  <p class="people-cards__text">Nacionalidade: Estadounidense <br> Oscars: 0 <br>Arrecadação Total: $223.286.205</p>
+                </div>
+            </article>
+            
+            <article class="people-cards__card">               
+
+                <img src="img/diretores/tarantino.jpg" alt="Carousel Img" class="people-cards__image" style="border-radius: 50%;">
+                <div class="people-cards__content">
+                  <a href="https://www.imdb.com/name/nm0000233/" target="_blank">
+                    <h2 class="people-cards__title">Quentin Tarantino</h2>
+                  </a>
+                  <p class="people-cards__text">Nacionalidade: Estadounidense <br> Oscars: 2 <br>Arrecadação Total: $2.000.000.000</p>
+                </div>
+            </article> 
+             
+                
+        </section>
+        </div>
+ 
+        <section class="last-articles" id="filmes">
+          <div class="placeholder"></div>
+            <div class="last-articles__title">
+                <div class="container">
+                    <h2>Os 12 melhores filmes de todos os tempos</h2>
+                </div>
+            </div>
+
+          <div class="last-articles__thumbs col-md-12">
+              <a href="https://www.imdb.com/title/tt0111161/?ref_=chttp_t_1" target="_blank">
+                <img src="img/top12filmes/shawshank.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0068646/?ref_=chttp_t_2" target="_blank"><img src="img/top12filmes/godfather.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0468569/?ref_=chttp_t_3" target="_blank"><img src="img/top12filmes/thedarkknight.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0071562/?ref_=chttp_t_4" target="_blank"><img src="img/top12filmes/godfather2.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0050083/?ref_=chttp_t_5" target="_blank"><img src="img/top12filmes/12angrymen.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0108052/?ref_=chttp_t_6" target="_blank"><img src="img/top12filmes/schindlerslist.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0167260/?ref_=chttp_t_7" target="_blank"><img src="img/top12filmes/lotrReturn.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0110912/?ref_=chttp_t_8" target="_blank"><img src="img/top12filmes/pulp.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0120737/?ref_=chttp_t_9" target="_blank"><img src="img/top12filmes/lotrFellowship.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0060196/?ref_=chttp_t_10" target="_blank"><img src="img/top12filmes/goodBadUgly.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0109830/?ref_=chttp_t_11" target="_blank"><img src="img/top12filmes/forrest.jpg" alt=""></a>
+              <a href="https://www.imdb.com/title/tt0137523/?ref_=chttp_t_12" target="_blank"><img src="img/top12filmes/fightClub.jpg" alt=""></a>
+          </div>
+        </section>
+
+       
+        
+        <section class="quote-container" id="frases">
+          <div class="placeholder"></div>
+
+          <div class="quote-slideshow">
+            <figure>
+              <h2>“May the Force be with you.” </h2>
+              <figcaption>
+                - Star Wars, 1977
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“There's no place like home.”</h2>
+              <figcaption>
+                - The Wizard of Oz, 1939
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“I'm the king of the world!” </h2>
+              <figcaption>
+                - Titanic, 1997
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“Carpe diem. Seize the day, boys. Make your lives extraordinary.”</h2>
+              <figcaption>
+                - Dead Poets Society, 1989
+              </figcaption>
+            </figure>
+            <figure>
+              <h2>“Elementary, my dear Watson.” </h2>
+              <figcaption>
+                - The Adventures of Sherlock Holmes, 1939
+              </figcaption>
+            </figure>          
+            <span class="prev" style="display:none;"><i class="fas fa-angle-left fa-2x"></i></span>
+            <span class="next" style="display:none;"><i class="fas fa-angle-right fa-2x"></i></span>
+          </div>
+          
+          <section class="content" id="signup">
+            <div class="placeholder"></div>
+          <div class="container">
+          
+            
+            <article>
+              <h3>Aproveite da oportunidade para se-cadrastar!</h3>
+              <p>Se você já tenha uma conta faz o seu Login aqui</p>            
+              <a href="test_register.php" class="button button-primary">Signup</a>
+              <a href="test_login.php" class="button button-secundary">Login</a>
+            </article>
+  
+            
+          </section>
+          
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <h2 class="footer__logo">Filmes</h2>
+        
+                <p>Este projeto foi feito sob a instrução de professor Davi Barros na faculdade Estácio de Recife, PE</p>
+
+                <p>A gente implementou PHP, HTML5, CSS3, Boostrap, Javascript, SQLite e JQuery</p>
+
+              <ul class="footer__links">
+                <li><a href="#">Martin</a></li>
+                <li><a href="#">Lucas</a></li>
+                <li><a href="#">Glaucion</a></li>
+                <li><a href="#">Ewerton</a></li>
+                <li><a href="#">Gustavo</a></li>
+                <li><a href="#">Juliane</a></li>
+              </ul>
+            </div>
+        </footer>
+        
+        <script src="js/menu.js"></script>        
+        <script src="js/carousel.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                      behavior: 'smooth'
+                  });
+              });
+          });
+      </script>
+
+<script>
+    // JavaScript to handle video embedding
+    const videoContainers = document.querySelectorAll('.video-container');
+    
+    videoContainers.forEach(container => {
+      const image = container.querySelector('img');
+      const videoId = container.getAttribute('data-video');
+      const playButton = container.querySelector('.play-button');
+      
+      container.addEventListener('click', () => {
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        iframe.width = 560;
+        iframe.height = 315;
+        iframe.title = 'YouTube video player';
+        iframe.frameBorder = 0;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen = true;
+        
+        container.removeChild(image);
+        container.removeChild(playButton);
+        container.appendChild(iframe);
+      });
+    });
+  </script>
+      
 
     </body>
 </html>
