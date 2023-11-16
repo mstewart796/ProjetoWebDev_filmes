@@ -61,16 +61,20 @@ session_start();
 					<input type="text" name="lastname" class="form-control" required="required" id="Sobrenome"/>
 				</div>
 				<?php
-					//checking if the session 'success' is set. Success session is the message that the credetials are successfully saved.
-					if(ISSET($_SESSION['success'])){
-				?>
-				<!-- Display registration success message -->
-				<div class="alert alert-success"><?php echo $_SESSION['success']?></div>
-				<?php
-					//Unsetting the 'success' session after displaying the message. 
-					unset($_SESSION['success']);
-					}
-				?>
+// checking if the session 'success' or 'error' is set
+if (isset($_SESSION['success'])) {
+    // Display registration success message
+    echo "<div class='alert alert-success'>" . $_SESSION['success'] . "</div>";
+    // Unsetting the 'success' session after displaying the message.
+    unset($_SESSION['success']);
+} elseif (isset($_SESSION['error'])) {
+    // Display error message
+    echo "<div class='alert alert-danger'>" . $_SESSION['error'] . "</div>";
+    // Unsetting the 'error' session after displaying the message.
+    unset($_SESSION['error']);
+}
+?>
+
 				<button class="btn btn-primary custom_button-red" name="register"><span class="glyphicon glyphicon-save"></span> Register</button>
 			</form>	
 			<!-- Registration Form end -->
