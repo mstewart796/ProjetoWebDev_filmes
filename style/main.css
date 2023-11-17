@@ -369,6 +369,14 @@ img{
     text-align: center;
 }
 
+.quote-margin {
+    margin: 70px;
+}
+
+.movie-quotes{
+    text-align: center;
+}
+
 .no-js .quote-slideshow figure + figure{
     margin-top: 5em;
     margin-bottom: 5em;
