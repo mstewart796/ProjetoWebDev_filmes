@@ -225,6 +225,12 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
+.hero__btn:hover{
+    outline: 5px solid #950101;
+    outline-offset: -5px;
+    background-color: #fff;
+    color: #242a2c;
+}
 
 .people-cards{
     margin-top: 2.5em;
@@ -387,6 +393,9 @@ img{
 }
 .busca-margin {
     margin: 20px;
+}
+.form-margin {
+    margin: 20px;   ;
 }
 
 .movie-quotes{

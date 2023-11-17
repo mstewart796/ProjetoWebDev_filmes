@@ -50,6 +50,7 @@ session_start();
 					<label for="username">Usuário</label>
 					<input type="text" name="username" class="form-control" required="required"/>
 				</div>
+				<div class="form-margin"></div>
 				<div class="form-group">
 					<label for="password">Senha</label>
 					<input type="password" name="password" class="form-control" required="required"/>
@@ -65,6 +66,7 @@ session_start();
 					unset($_SESSION['error']);
 					}
 				?>
+				<div class="form-margin"></div>
 				<button class="btn btn-primary custom_button-red" name="login"><span class="glyphicon glyphicon-log-in"></span> Login</button>
 			</form>	
 			<!-- Login Form Ends -->

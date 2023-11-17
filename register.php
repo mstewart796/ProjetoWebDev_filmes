@@ -46,18 +46,22 @@ session_start();
             <!-- Reg Form Starts -->
 			<form method="POST" action="save_member.php">	
 				<div class="alert custom_alert-dark">Cadastro</div>
+                <div class="form-margin"></div>
 				<div class="form-group">
 					<label for="username">Usuário</label>
 					<input type="text" name="username" class="form-control" required="required"/>
 				</div>
+                <div class="form-margin"></div>
 				<div class="form-group">
 					<label for="password">Senha</label>
 					<input type="password" name="password" class="form-control" required="required"/>
 				</div>
+                <div class="form-margin"></div>
 				<div class="form-group">
 					<label for="nome">Nome</label>
 					<input type="text" name="firstname" class="form-control" required="required" id="nome"/>
 				</div>
+                <div class="form-margin"></div>
 				<div class="form-group">
 					<label for="Sobrenome">Sobrenome</label>
 					<input type="text" name="lastname" class="form-control" required="required" id="Sobrenome"/>
@@ -76,7 +80,7 @@ if (isset($_SESSION['success'])) {
     unset($_SESSION['error']);
 }
 ?>
-
+                <div class="form-margin"></div>
 				<button class="btn btn-primary custom_button-red" name="register"><span class="glyphicon glyphicon-save"></span> Register</button>
 			</form>	
 			<!-- Registration Form end -->
