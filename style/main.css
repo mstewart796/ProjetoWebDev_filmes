@@ -352,7 +352,7 @@ img{
 
 .quote-container{
     background-color: #950101;
-    padding: 50px 0;
+    
     border-bottom: 12px solid #3D0000;
 }
 
@@ -371,6 +371,7 @@ img{
 
 .no-js .quote-slideshow figure + figure{
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 
