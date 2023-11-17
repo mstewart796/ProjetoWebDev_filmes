@@ -8,4 +8,4 @@ google.com
 Curso Web Frontend Fundamentos: HTML, CSS e JS + 10 Projetos (Curso de Daniel Tapias)
 chatgpt
 
-All images belong to their respective copyright holders and are used for educational purposes.
+All images belong to their respective copyright holders and are used solely for educational purposes under fair usage. The use of this material is not intended to infringe upon the rights of the copyright owner. 
