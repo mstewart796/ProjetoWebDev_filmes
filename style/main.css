@@ -350,7 +350,7 @@ img{
 
 .laptop-slider{
     background-color: #242a2c;
-    padding: 125px 0 100px;
+    padding: 35px 0 100px;
     width: 100%;
     overflow: auto;
     background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
